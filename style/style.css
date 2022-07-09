@@ -1,0 +1,348 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+header {
+    padding: 10px 50px 10px 50px;
+    align-items: center;
+}
+
+header, header .bwi.navbar, header .wonderful-logo {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(7, 63, 80, 1);
+}
+
+.bwi.navbar nav {
+    display: flex;
+    align-items: center;
+}
+
+header .bwi.navbar img {
+    width: 95px;
+}
+
+header .wonderful-logo img {
+    height: 70px;
+}
+
+header .wonderful-logo #wonderful-indo {
+    padding-top: 15px;
+    margin-left: 20px;
+    height: 93px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+nav a:hover, footer a:hover {
+    font-weight: 900;
+}
+
+body .profil {
+    display: flex;
+    padding: 10px 10px 0 10px;
+    background-color: rgba(224, 231, 247, 1);
+}
+
+#content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;    
+}
+
+#profil {
+    display: flex;
+    padding: 30px 0 30px 0;
+}
+
+#profil img {
+    height: 200px;
+    margin-right: 50px;
+}
+
+li {
+    list-style: none;
+}
+
+aside {
+    margin-left: 10px;
+    border-radius: 5px;
+    width: 80%;
+    padding: 30px;
+    background-color: white;
+    text-align: center;
+}
+
+aside > img {
+    border: 2px solid rgba(7, 63, 80, 1);
+    border-radius: 100%;
+    height: 200px;
+}
+
+.instagram img {
+    width: 30px;
+}
+
+.instagram {
+    display: inline-flex;
+    align-items: center;
+}
+
+footer {
+    background-color: rgba(7, 63, 80, 1);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+h3, p {
+    padding-bottom: 15px;
+}
+
+/* wisata.html */
+
+body .pariwisata, body .produk {
+    background-color: rgba(224, 231, 247, 1)
+}
+
+.pariwisata h1, .pariwisata span, .produk h1, .produk span {
+    padding: 20px 0 0 50px;
+}
+
+.card-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card, #content-produk .card-container img {
+    width: 25%;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.card:hover, #content-produk .card-container img:hover {
+    box-shadow: 0 4px 16px 0 rgb(0, 0, 0);
+}
+  
+.container {
+    padding: 2px 16px;
+}
+
+.card>img {
+    border-radius: 5px 5px 0 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;    
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        font: 18px/24px 'Nunito', sans-serif;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    body .profil {
+        display: flex;
+        padding: 5px 5px 0 5px;
+        background-color: rgba(224, 231, 247, 1);
+    }
+
+    header .wonderful-logo img {
+        height: 50px;
+    }
+    
+    header .wonderful-logo #wonderful-indo {
+        height: 50px;
+    }
+
+    header .bwi.navbar img {
+        width: 75px;
+    }
+
+    #profil img {
+        height: 115px;
+        margin-right: 25px;
+    }
+
+    .card, #content-produk .card-container img {
+        background-color: white;
+        width: 28%;
+        margin: 0 0 10px 0;
+    }
+
+    aside {
+        padding: 10px;
+        margin-left: 3px;
+    }
+
+    aside > img {
+        height: 115px;
+    }
+
+    .instagram img {
+        width: 15px;
+    }    
+
+    aside p {
+        width: 200px;
+        text-align: center;
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font: 12px/24px 'Nunito', sans-serif;
+    }
+
+    body main #profil, body .profil {
+        display: inline-block;
+    }
+
+    h1 {
+        font-size: 14px;
+    }
+
+    h3 {
+        font-size: 12px;
+    }
+
+    h3, p {
+        padding-bottom: 5px;
+    }
+
+    body .profil {
+        padding: 2px 2px 0 2px;
+    }
+
+    header {
+        padding: 5px;
+        align-items: center;
+    }
+
+    header .wonderful-logo img {
+        height: 25px;
+    }
+    
+    header .wonderful-logo #wonderful-indo {
+        height: 28px;
+        padding-top: 5px;
+        margin-left: 0;
+    }
+
+    header .bwi.navbar img {
+        width: 30px;
+    }
+
+    nav a {
+        padding-left: 5px;
+        font-size: 12px;
+    }
+
+    #content {
+        padding: 10px;
+        border-radius: 5px;    
+    }
+
+    #profil {
+        padding: 5px 0 5px 0;
+        text-align: center;
+    }
+
+    #profil ol {
+        text-align: left;
+    }
+
+    #profil img {
+        height: 50px;
+        margin-right: 15px;
+    }
+
+    aside {
+        padding: 10px;
+        margin: 2px 0px 50px 0px;
+        display: flex;
+        align-items: flex-start;
+        width: max-content;
+        justify-content: space-between;
+    }
+
+    aside > img {
+        height: 50px;
+    }
+
+    .instagram img {
+        width: 15px;
+    }    
+
+    aside p {
+        display: inline-block;
+        padding: 0 10px 0 10px;
+        width: 200px;
+        text-align: left;
+    }
+
+    footer {
+        padding: 5px;
+        line-height: 2.5ch;
+
+    }
+
+    /* wisata.html & produk.html */
+    .pariwisata h1, .pariwisata span, .produk h1, .produk span {
+        padding: 5px 0 0 10px;
+        line-height: 2ch;
+    }
+
+    #content-pariwisata, #content-produk {
+        padding: 10px;
+        margin-bottom: 50px;
+    }
+
+    .card-container {
+        margin-top: 5px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .card, #content-produk .card-container img {
+        width: 32%;
+        margin-bottom: 5px;
+        background-color: white;
+    }
+
+    .container {
+        padding: 2px 5px;
+        font-size: 10px;
+        line-height: 2.5ch;
+    }
+
+    .card>img {
+        border-radius: 5px 5px 0 0;
+    }
+
+    footer {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    body .produk, body .pariwisata, body .profil {
+        background-color: white;
+    }
+}
